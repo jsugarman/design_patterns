@@ -1,4 +1,4 @@
-require './report'
+require_relative 'report'
 
 class HTMLReport < Report
 

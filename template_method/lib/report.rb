@@ -1,17 +1,17 @@
 class Report
   def initialize
-    @title = 'Monhtly report'
+    @title = 'Monthly report'
     @text = ['things are going','really,really well']
   end
 
 
   def output
-    puts output_start +
-          output_head +
-          output_body_start +
-          output_body +
-          output_body_end +
-          output_end
+    output_start +
+    output_head +
+    output_body_start +
+    output_body +
+    output_body_end +
+    output_end
   end
 
   def output_start
