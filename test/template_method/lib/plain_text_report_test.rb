@@ -8,6 +8,6 @@ class PlainTextReportTest < MiniTest::Test
   end
 
   def test_output
-    assert_equal @plain_text_report.output, '<html><head><title>Monthly report</title></head><body><p>things are going</p><p>really,really well</p></body></html>', "plain output valid"
+    assert_equal @plain_text_report.output, "title: Monthly report\n1. things are going \n2. really,really well \n\n-------------", "plain output valid"
   end
 end

@@ -1,7 +1,5 @@
 require_relative 'tax_man'
 require_relative 'employee'
-# require 'byebug'
-# byebug
 tax_man = TaxMan.new
 
 john = Employee.new(title:'VC', salary: 3000, name: 'john')
