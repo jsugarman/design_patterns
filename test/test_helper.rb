@@ -7,6 +7,6 @@ def app_root
 end
 
 # load
-Dir[File.expand_path("#{app_root}/template_method/**/*.rb")].each do |path|
+Dir[File.expand_path("#{app_root}/**/*.rb")].each do |path|
   require path
 end
