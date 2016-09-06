@@ -1,5 +1,7 @@
-class AccountManager
-  include Enumerable
+require_relative 'account_iterable'
+
+class IterableAccountManager
+  include AccountIterable
 
   attr_reader :accounts
 
@@ -15,8 +17,4 @@ class AccountManager
     accounts.delete(account)
   end
 
-  # REQUIRED: pass thru the block to enumerable for the accounts array
-  def each(&block)
-    accounts.each(&block)
-  end
 end

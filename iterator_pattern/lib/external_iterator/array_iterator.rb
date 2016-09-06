@@ -8,7 +8,7 @@ class ArrayIterator
   end
 
   def has_next?
-    @index < @array.length-1
+    @index < @array.length
   end
 
   def next_item
