@@ -12,13 +12,13 @@ class ScriptRunner
 
   def self.list
     public_instance_methods(false).each do |method|
-      puts " - #{method}"
+      ap " - #{method}"
     end
   end
 
   def list
     public_methods(false).each do |method|
-      puts " - #{method}"
+      ap " - #{method}"
     end
   end
 
