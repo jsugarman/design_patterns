@@ -1,7 +1,7 @@
 require_relative 'tax_man'
 require_relative 'employee'
 
-module ScriptRunner
+class ScriptRunner
 
   def run_observer_pattern
     tax_man = TaxMan.new
