@@ -1,5 +1,3 @@
-require_relative '../../../test_helper'
-
 class ArrayIteratorTest < MiniTest::Test
   def setup
     @arr = [1,2,3,4,5]

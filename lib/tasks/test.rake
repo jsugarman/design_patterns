@@ -4,6 +4,6 @@ require "rake/testtask"
 # default rake test tast override
 Rake::TestTask.new do |t|
   t.libs << "test"
-  t.test_files = FileList["#{app_root}/test/**/*.rb"]
+  t.test_files = FileList["#{File.expand_path("#{__FILE__}/../..")}/test/**/*.rb"]
   t.verbose = true
 end

@@ -1,5 +1,3 @@
-require_relative '../../test_helper'
-
 class HTMLReportTest < MiniTest::Test
   def setup
     @html_report = HTMLReport.new

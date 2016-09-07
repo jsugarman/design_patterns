@@ -1,7 +1,3 @@
-require_relative '../../test_helper'
-
-puts "plain text report test"
-
 class PlainTextReportTest < MiniTest::Test
   def setup
     @plain_text_report = PlainTextReport.new
