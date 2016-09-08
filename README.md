@@ -1,6 +1,6 @@
 Design patterns in ruby as taken from Russ Olsen's "Design Patterns in Ruby"
 
-**setup**
+**Setup**
 
 create ~/.irbc file with content below to have irb console load all ruby files
 
@@ -21,3 +21,16 @@ if File.exist?(file) && (file != __FILE__)
 end
 
 ```
+
+**Testing**
+
+Uses minitest with a rake task to run, as below:
+
+```
+rake test
+```
+
+**TODO**
+
+  - [] run scripts for all pattern examples
+  - [] test all pattern examples

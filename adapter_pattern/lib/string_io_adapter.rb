@@ -9,6 +9,7 @@ class StringIOAdapter
   end
 
   def getc
+    raise EOFError if eof?
     char = @string[@index]
     @index += 1
     char
